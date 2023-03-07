@@ -1,0 +1,64 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+body {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+header {
+    height: 60px;
+    width: fit-content;
+    color:  #ffffff;
+}
+
+header p {
+    height: 20px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: fit-content;
+    color:  #ff5e00;
+    font-size: large;
+
+    
+}
+
+.navbar {
+
+    height: 65px;
+    margin-top: 45px;
+    background-color: #272727;
+
+}
+
+.navbar li {
+   
+    display: inline;
+    padding: 0 90px;
+}
+
+.navbar ul {
+    text-align: left;
+
+}
+
+a:hover {
+    color: #e9821a;
+    cursor: pointer;
+  }
+
+  a:visited {
+    color: #e9821a;
+  }
+img {
+    margin: 20px 0px;
+}
+#ulProducto img {
+    width: 120px;
+}
+button {
+    width:  80px;
+    height: 35px;
+    background-color: #e9821a;
+}
